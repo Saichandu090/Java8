@@ -2,7 +2,7 @@ package stramapi;
 
 import java.util.Arrays;
 
-public class First
+public class FilterInteger
 {
     public static void main(String[] args) {
 

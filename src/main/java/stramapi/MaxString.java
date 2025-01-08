@@ -2,7 +2,7 @@ package stramapi;
 
 import java.util.List;
 
-public class Second
+public class MaxString
 {
     public static void main(String[] args) {
 

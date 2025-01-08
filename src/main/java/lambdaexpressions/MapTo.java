@@ -2,7 +2,7 @@ package lambdaexpressions;
 
 import java.util.List;
 
-public class Fifth
+public class MapTo
 {
     public static void main(String[] args) {
 

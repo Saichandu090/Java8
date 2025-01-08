@@ -2,7 +2,7 @@ package optionalclass;
 
 import java.util.Optional;
 
-public class First
+public class IsEmpty
 {
     public static Optional<String > get(String s)
     {

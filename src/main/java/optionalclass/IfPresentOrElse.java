@@ -2,7 +2,7 @@ package optionalclass;
 
 import java.util.Optional;
 
-public class Second
+public class IfPresentOrElse
 {
     public static void get(Optional<String > o)
     {

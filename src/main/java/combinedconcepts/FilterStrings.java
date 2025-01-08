@@ -2,7 +2,7 @@ package combinedconcepts;
 
 import java.util.List;
 
-public class Third
+public class FilterStrings
 {
     public static void main(String[] args) {
 

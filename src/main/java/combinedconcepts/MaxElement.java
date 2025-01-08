@@ -2,7 +2,7 @@ package combinedconcepts;
 
 import java.util.List;
 
-public class Second
+public class MaxElement
 {
     public static void main(String[] args) {
 

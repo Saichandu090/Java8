@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class Fifth {
+public class BiConsumer {
     public static void main(String[] args) {
         List<Employee> list = List.of(new Employee("Sai Chandu", "Software"), new Employee("Jenny", "Software"), new Employee("Vamsi", "Electrical"), new Employee("Sowmya", "TPRM"));
 

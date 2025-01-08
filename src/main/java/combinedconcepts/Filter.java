@@ -2,7 +2,7 @@ package combinedconcepts;
 
 import java.util.List;
 
-public class Fifth
+public class Filter
 {
     public static void main(String[] args) {
 

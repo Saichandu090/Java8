@@ -3,7 +3,7 @@ package lambdaexpressions;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Fourth
+public class CollectStream
 {
     public static void main(String[] args) {
 

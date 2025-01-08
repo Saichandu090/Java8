@@ -1,9 +1,8 @@
 package stramapi;
 
-import java.util.Date;
 import java.util.List;
 
-public class Fourth
+public class MapToDouble
 {
     public static void main(String[] args) {
 

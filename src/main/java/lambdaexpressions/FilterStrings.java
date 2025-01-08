@@ -2,7 +2,7 @@ package lambdaexpressions;
 
 import java.util.List;
 
-public class Second
+public class FilterStrings
 {
     public static void main(String[] args) {
 

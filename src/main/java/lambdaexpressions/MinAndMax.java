@@ -1,10 +1,8 @@
 package lambdaexpressions;
 
-import functionalinterfaces.IntOperation;
-
 import java.util.List;
 
-public class Third
+public class MinAndMax
 {
     public static void main(String[] args) {
 

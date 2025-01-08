@@ -2,7 +2,7 @@ package stramapi;
 
 import java.util.List;
 
-public class Third
+public class FilterString
 {
     public static void main(String[] args) {
 
