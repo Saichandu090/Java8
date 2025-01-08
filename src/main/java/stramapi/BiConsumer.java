@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 
 public class BiConsumer {
     public static void main(String[] args) {
-        List<Employee> list = List.of(new Employee("Sai Chandu", "Software"), new Employee("Jenny", "Software"), new Employee("Vamsi", "Electrical"), new Employee("Sowmya", "TPRM"));
+        List<Employee> employees = List.of(new Employee("Sai Chandu", "Software"), new Employee("Jenny", "Software"), new Employee("Vamsi", "Electrical"), new Employee("Sowmya", "TPRM"));
 
-        Map<String, List<Employee>> ls = list.stream()
+        Map<String, List<Employee>> ls = employees.stream()
                 .collect(Collectors.groupingBy(Employee::getDept));
 
         ls.forEach((k, v) -> {

@@ -6,12 +6,12 @@ public class FilterStrings
 {
     public static void main(String[] args) {
 
-        List<String> list= List.of("","","sai","jenny","Rahil","");
+        List<String> names= List.of("","","sai","jenny","Rahil","");
 
-        list=list.stream()
-                .filter(s->!s.isEmpty())
+        names=names.stream()
+                .filter(name->!name.isEmpty())
                 .toList();
 
-        list.forEach(System.out::println);
+        names.forEach(System.out::println);
     }
 }

@@ -4,9 +4,9 @@ import java.util.Optional;
 
 public class IfPresentOrElse
 {
-    public static void get(Optional<String > o)
+    public static void get(Optional<String > args)
     {
-        o.ifPresentOrElse(a-> System.out.println(a.toUpperCase()),()-> System.out.println("No Value"));
+        args.ifPresentOrElse(a-> System.out.println(a.toUpperCase()),()-> System.out.println("No Value"));
     }
 
     public static void main(String[] args) {

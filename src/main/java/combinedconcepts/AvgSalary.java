@@ -8,9 +8,9 @@ public class AvgSalary
 
     public static void main(String[] args) {
 
-        List<Employee> list= List.of(new Employee("Sai",45000.0),new Employee("Chandu",98765.9),new Employee("Jenny",98789.9));
+        List<Employee> employees= List.of(new Employee("Sai",45000.0),new Employee("Chandu",98765.9),new Employee("Jenny",98789.9));
 
-        OptionalDouble rs=list.stream()
+        OptionalDouble rs=employees.stream()
                 .mapToDouble(Employee::getSalary)
                 .average();
 

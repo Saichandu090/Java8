@@ -4,11 +4,11 @@ import java.util.Optional;
 
 public class IsEmpty
 {
-    public static Optional<String > get(String s)
+    public static Optional<String > get(String name)
     {
-        if(s.isEmpty())
+        if(name.isEmpty())
             return Optional.empty();
-        return Optional.ofNullable(s);
+        return Optional.of(name);
     }
 
     public static void main(String[] args) {

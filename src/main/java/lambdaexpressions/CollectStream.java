@@ -7,9 +7,9 @@ public class CollectStream
 {
     public static void main(String[] args) {
 
-        List<String > list=List.of("Sai","Chandu","Jenny Jenishna","Chandini","Vamsi","Vishnu");
+        List<String > names=List.of("Sai","Chandu","Jenny Jenishna","Chandini","Vamsi","Vishnu");
 
-        String rs=list.stream()
+        String rs=names.stream()
                 .collect(Collectors.joining(","))
                 .toString();
 
